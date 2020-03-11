@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es2015",
+      "es2016",
+      "es2017",
+      "dom"
+    ],
+    "strict": true,
+    "strictNullChecks": false,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "compiled",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "noImplicitThis": false,
+    "noImplicitAny": false,
+    "declaration": true,
+    "allowJs": true,
+    "esModuleInterop": true
+  },
+  "files": [
+    "src/appendix.ts",
+    "src/attachment.ts",
+    "src/builder.ts",
+    "src/converters.ts",
+    "src/crypto.ts",
+    "src/fee.ts",
+    "src/quantower-api.ts",
+    "src/quantower-sdk.ts",
+    "src/quantower-rpc.ts",
+    "src/secret-generator.ts",
+    "src/transaction-type.ts",
+    "src/transaction.ts",
+    "src/types.ts",
+    "src/utils.ts"
+  ]
+}
